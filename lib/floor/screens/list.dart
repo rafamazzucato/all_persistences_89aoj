@@ -1,4 +1,4 @@
-import 'package:all_persistences/floor/models/person.dart';
+import 'package:all_persistences/floor/models/book.dart';
 import 'package:all_persistences/floor/screens/add.dart';
 import 'package:all_persistences/utils/custom_styles.dart';
 import 'package:all_persistences/utils/custom_widgets.dart';

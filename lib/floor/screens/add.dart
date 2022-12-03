@@ -1,4 +1,4 @@
-import 'package:all_persistences/floor/models/person.dart';
+import 'package:all_persistences/floor/models/book.dart';
 import 'package:all_persistences/utils/custom_widgets.dart';
 import 'package:all_persistences/widgets/input_form.dart';
 import 'package:flutter/material.dart';

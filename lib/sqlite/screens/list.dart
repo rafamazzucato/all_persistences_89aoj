@@ -14,7 +14,6 @@ class PersonListWidget extends StatefulWidget {
 
 class _PersonListWidgetState extends State<PersonListWidget> {
   final title = const Text("Pessoas");
-  final addPage = PersonFormWidget();
 
   List<Person> persons = [];
 
@@ -47,8 +46,10 @@ class _PersonListWidgetState extends State<PersonListWidget> {
         actions: [
           IconButton(
               onPressed: () {
-                Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => addPage))
+                Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => PersonFormWidget()))
                     .then((person) {
                   _insertPerson(person);
                 });
