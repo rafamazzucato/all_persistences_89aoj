@@ -1,3 +1,5 @@
+import 'package:all_persistences/firebase/screens/list.dart';
+import 'package:all_persistences/floor/screens/list.dart';
 import 'package:all_persistences/screens/home.dart';
 import 'package:all_persistences/sqlite/screens/list.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +22,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const HomeWidget(),
-        '/person': (context) => const PersonListWidget()
+        '/person': (context) => const PersonListWidget(),
+        '/book': (context) => const BookListWidget(),
+        '/car': (context) => const CarListWidget(),
       },
     );
   }
