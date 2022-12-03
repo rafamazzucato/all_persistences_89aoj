@@ -15,7 +15,7 @@ class PersonListWidget extends StatefulWidget {
 
 class _PersonListWidgetState extends State<PersonListWidget> {
   final title = const Text("Pessoas");
-  final addPage = const PersonFormWidget();
+  final addPage = PersonFormWidget();
 
   List<Person> persons = [Person("Rafael", "Thomazelli Mazzucato")];
 
