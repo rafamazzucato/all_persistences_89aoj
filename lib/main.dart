@@ -2,9 +2,12 @@ import 'package:all_persistences/firebase/screens/list.dart';
 import 'package:all_persistences/floor/screens/list.dart';
 import 'package:all_persistences/screens/home.dart';
 import 'package:all_persistences/sqlite/screens/list.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

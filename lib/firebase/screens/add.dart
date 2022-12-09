@@ -1,4 +1,4 @@
-import 'package:all_persistences/firebase/models/person.dart';
+import 'package:all_persistences/firebase/models/car.dart';
 import 'package:all_persistences/utils/custom_widgets.dart';
 import 'package:all_persistences/widgets/input_form.dart';
 import 'package:flutter/material.dart';
